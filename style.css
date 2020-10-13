@@ -1,0 +1,372 @@
+body {
+  margin:0;
+  background-color: black;
+  font-family: 'Gothic A1', sans-serif;
+}
+.smallbody{
+  margin:50px 80px 30px 80px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  z-index: 99;
+  padding:5px 12px 4px 12px;
+  margin: 2px;
+  font-size: 16px;
+}
+
+.navtext {
+  font-size: 12px;
+}
+
+.navlogo:hover {
+  color: #BBBBBB;
+}
+.navinfo:hover {
+  color: #BBBBBB;
+}
+
+.box {
+  float: left;
+  width: 160px;
+  height: 160px;
+  color: black;
+  font-size: 0px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #BBBBBB;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.emptybox {
+  float: left;
+  width: 80px;
+  height: 160px;
+  color: #fff;
+  border: 1px solid black;
+  background: black;
+}
+
+.lastbox {
+  float: left;
+  width: 120px;
+  height: 120px;
+  color: white;
+  font-size: 160px;
+  padding: 20px;
+  line-height: 120px;
+  text-align: center;
+  margin: 1px;
+  /* background: yellow; */
+}
+
+.left {
+  float: left;
+  background: black;
+  color:white;
+  grid-area: nav;
+  padding: 0px 90px 90px 60px;
+  width:44%;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.right {
+  float: right;
+  position: relative;
+  background: black;
+  color:white;
+  grid-area: aside;
+  padding: 60px 80px 90px 60px;
+  left: 0;
+  width:44%;
+  word-spacing: 3px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+big {
+  font-size: 28px;
+}
+
+small {
+  word-spacing: 3px}
+}
+
+.frontbox {
+  float: left;
+  width: 20%;
+  height: 50px;
+  color: #BBBBBB;
+  font-size: 20px;
+  line-height: 60px;
+  /* text-align: center; */
+  margin: 1px;
+  /* background: yellow; */
+}
+
+.lastbox:hover {
+  color:#BBBBBB;
+}
+
+::-webkit-scrollbar { display: none; }
+
+.loader {
+  visibility: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  z-index: 22;
+  background: white;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.loader.hidden {
+  animation: fadeOut 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+    /* display:block; */
+  }
+}
+
+
+#a1.box {background-image: url(collect/1_글_2.png);}
+#a1.box:hover {background-image:  url(collect/1_글_2.png),url(collect/1_글_1.png);}
+
+#a2.box {background-image: url(collect/2_자_2.png);}
+#a2.box:hover {background-image: url(collect/2_자_2.png), url(collect/2_자_1.png);}
+
+#a3.box {background-image: url(collect/3_는_2.png);}
+#a3.box:hover {background-image:  url(collect/3_는_2.png),url(collect/3_는_1.png);}
+
+#a4.box {background-image: url(collect/4_생_2.png);}
+#a4.box:hover {background-image: url(collect/4_생_2.png), url(collect/4_생_1.png);}
+
+#a5.box {background-image: url(collect/5_태_2.png);}
+#a5.box:hover {background-image: url(collect/5_태_2.png),url(collect/5_태_1.png);}
+
+#a6.box {background-image: url(collect/6_적_2.png);}
+#a6.box:hover {background-image: url(collect/6_적_2.png), url(collect/6_적_1.png);}
+
+#a7.box {background-image: url(collect/7_토_2.png);}
+#a7.box:hover {background-image:  url(collect/7_토_2.png),url(collect/7_토_1.png);}
+
+#a8.box {background-image: url(collect/8_양_2.png);}
+#a8.box:hover {background-image: url(collect/8_양_2.png), url(collect/8_양_1.png);}
+
+#a9.box {background-image: url(collect/9_에_2.png);}
+#a9.box:hover {background-image:  url(collect/9_에_2.png),url(collect/9_에_1.png);}
+
+#a10.box {background-image: url(collect/10_서_2.png);}
+#a10.box:hover {background-image: url(collect/10_서_2.png), url(collect/10_서_1.png);}
+
+#a11.box {background-image: url(collect/11_배_2.png);}
+#a11.box:hover {background-image: url(collect/11_배_2.png),url(collect/11_배_1.png);}
+
+#a12.box {background-image: url(collect/12_태_2.png);}
+#a12.box:hover {background-image: url(collect/12_태_2.png), url(collect/12_태_1.png);}
+
+#a13.box {background-image: url(collect/13_되_2.png);}
+#a13.box:hover {background-image:  url(collect/13_되_2.png),url(collect/13_되_1.png);}
+
+#a14.box {background-image: url(collect/14_고_2.png);}
+#a14.box:hover {background-image: url(collect/14_고_2.png), url(collect/14_고_1.png);}
+
+#a15.box {background-image: url(collect/15_자_2.png);}
+#a15.box:hover {background-image: url(collect/15_자_2.png), url(collect/15_자_1.png);}
+
+#a16.box {background-image: url(collect/16_라_2.png);}
+#a16.box:hover {background-image: url(collect/16_라_2.png),url(collect/16_라_1.png);}
+
+#a17.box {background-image: url(collect/17_나_2.png);}
+#a17.box:hover {background-image: url(collect/17_나_2.png), url(collect/17_나_1.png);}
+
+#a18.box {background-image: url(collect/18_는_2.png);}
+#a18.box:hover {background-image:  url(collect/18_는_2.png),url(collect/18_는_1.png);}
+
+#a19.box {background-image: url(collect/19_생_2.png);}
+#a19.box:hover {background-image: url(collect/19_생_2.png), url(collect/19_생_1.png);}
+
+#a20.box {background-image: url(collect/20_물_2.png);}
+#a20.box:hover {background-image: url(collect/20_물_2.png), url(collect/20_물_1.png);}
+
+#a21.box {background-image: url(collect/21_같_2.png);}
+#a21.box:hover {background-image: url(collect/21_같_2.png),url(collect/21_같_1.png);}
+
+#a22.box {background-image: url(collect/22_아_2.png);}
+#a22.box:hover {background-image: url(collect/22_아_2.png), url(collect/22_아_1.png);}
+
+#a23.box {background-image: url(collect/23_서_2.png);}
+#a23.box:hover {background-image:  url(collect/23_서_2.png),url(collect/23_서_1.png);}
+
+#a24.box {background-image: url(collect/24_저_2.png);}
+#a24.box:hover {background-image: url(collect/24_저_2.png), url(collect/24_저_1.png);}
+
+#a25.box {background-image: url(collect/25_마_2.png);}
+#a25.box:hover {background-image: url(collect/25_마_2.png), url(collect/25_마_1.png);}
+
+#a26.box {background-image: url(collect/26_다_2.png);}
+#a26.box:hover {background-image: url(collect/26_다_2.png),url(collect/26_다_1.png);}
+
+#a27.box {background-image: url(collect/27_의_2.png);}
+#a27.box:hover {background-image: url(collect/27_의_2.png), url(collect/27_의_1.png);}
+
+#a28.box {background-image: url(collect/28_환_2.png);}
+#a28.box:hover {background-image:  url(collect/28_환_2.png),url(collect/28_환_1.png);}
+
+#a29.box {background-image: url(collect/29_경_2.png);}
+#a29.box:hover {background-image: url(collect/29_경_2.png), url(collect/29_경_1.png);}
+
+#a30.box {background-image: url(collect/30_속_2.png);}
+#a30.box:hover {background-image: url(collect/30_속_2.png), url(collect/30_속_1.png);}
+
+#a31.box {background-image: url(collect/31_에_2.png);}
+#a31.box:hover {background-image: url(collect/31_에_2.png),url(collect/31_에_1.png);}
+
+#a32.box {background-image: url(collect/32_서_2.png);}
+#a32.box:hover {background-image: url(collect/32_서_2.png), url(collect/32_서_1.png);}
+
+#a33.box {background-image: url(collect/33_적_2.png);}
+#a33.box:hover {background-image:  url(collect/33_적_2.png),url(collect/33_적_1.png);}
+
+#a34.box {background-image: url(collect/34_응_2.png);}
+#a34.box:hover {background-image: url(collect/34_응_2.png), url(collect/34_응_1.png);}
+
+#a35.box {background-image: url(collect/35_한_2.png);}
+#a35.box:hover {background-image: url(collect/35_한_2.png), url(collect/35_한_1.png);}
+
+#a36.box {background-image: url(collect/36_외_2.png);}
+#a36.box:hover {background-image: url(collect/36_외_2.png),url(collect/36_외_1.png);}
+
+#a37.box {background-image: url(collect/37_양_2.png);}
+#a37.box:hover {background-image: url(collect/37_양_2.png), url(collect/37_양_1.png);}
+
+#a38.box {background-image: url(collect/38_을_2.png);}
+#a38.box:hover {background-image:  url(collect/38_을_2.png),url(collect/38_을_1.png);}
+
+#a39.box {background-image: url(collect/39_갖_2.png);}
+#a39.box:hover {background-image: url(collect/39_갖_2.png), url(collect/39_갖_1.png);}
+
+#a40.box {background-image: url(collect/40_추_2.png);}
+#a40.box:hover {background-image: url(collect/40_추_2.png), url(collect/40_추_1.png);}
+
+#a41.box {background-image: url(collect/41_어_2.png);}
+#a41.box:hover {background-image: url(collect/41_어_2.png),url(collect/41_어_1.png);}
+
+#a42.box {background-image: url(collect/42_간_2.png);}
+#a42.box:hover {background-image: url(collect/42_간_2.png), url(collect/42_간_1.png);}
+
+#a43.box {background-image: url(collect/43_다_2.png);}
+#a43.box:hover {background-image:  url(collect/43_다_2.png),url(collect/43_다_1.png);}
+
+@media (max-width: 600px) {
+  .loader > img {
+    width: 100px;
+  }
+
+  .box {
+    width: 70px;
+    height: 70px;
+  }
+
+  .emptybox {
+    width: 34px;
+    height: 70px;
+  }
+
+  .lastbox {
+    width: 34px;
+    height: 70px;
+    padding:10px;
+    font-size: 54px;
+    line-height: 50px;
+  }
+
+body {
+  line-height: 20px;
+}
+
+.smallbody{
+  margin:40px 20px 20px 20px;
+}
+
+.navtext {
+  font-size: 9px;
+}
+
+  .left {
+    float: left;
+    background: black;
+    color:white;
+    grid-area: nav;
+    padding: 0px 20px 40px 14px;
+    width:64%;
+    font-size: 10px;
+  }
+
+  .right {
+    float: right;
+    position: relative;
+    background: black;
+    color:white;
+    grid-area: aside;
+    padding: 30px 14px 40px 14px;
+    left: 0;
+    width:64%;
+    font-size: 10px;
+
+  }
+  .frontbox {
+    height: 10px;
+    font-size: 0px;
+  }
+
+  .left {
+    float: left;
+    background: black;
+    color:white;
+    grid-area: nav;
+    padding: 0px 20px 40px 14px;
+    width:66%;
+    font-size: 10px;
+    line-height: 22px;
+  }
+
+  .right {
+    float: right;
+    position: relative;
+    background: black;
+    color:white;
+    grid-area: aside;
+    padding: 30px 14px 40px 14px;
+    left: 0;
+    width:66%;
+    font-size: 10px;
+    line-height: 22px;
+  }
+
+big {
+  font-size: 16px;
+  }
+
+small {
+  word-spacing: 3px}
+  }
+
+}
